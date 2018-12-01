@@ -1,0 +1,8 @@
+ _______________________________________________________________________________________________________
+|_____________________________________________PiNKE0.1a:________________________________________________|
+|__________________________________Baseado em NKE0.7d Dezembro/2016_____________________________________|
+
+* Nome de um estado da task mudou 	: 			DEAD -> TERMINATED
+* writelcdn() e writelcds() 		: 				não foram implementadas
+* Chamadas bloqueantes(sleep, msleep, usleep, semwait, taskjoin) : não estão funcionado
+* Chamadas nkprint, printk e nkread : 			estão funcionado parcialmente (nao imprime float)

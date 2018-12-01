@@ -1,0 +1,10 @@
+/* 
+Para poder usar os comandos "make" ou "make clean", deve-se mostra o caminho para os mesmos. 
+Exemplo se a pasta Pi-NKE estiver em Documentos, vá até a pasta placa, digite todo o caminho abaixo 
+no prompt e tecle <ENTER>.
+   export PATH=$PATH:/home/linux/Documentos/Pi-NKE/gcc-arm-none-eabi-4_7-2013q3/bin/
+Após feito isto, os comandos funcionarão. Obs.: este passo deverá ser feito cada vez que for ligado o computador, pois não fica salvo.
+Para programar o SD card para o boot, copie o arquivo Kernel.img da pasta placa, (Este é o kernel do NKE) e copie todos os arquivos
+da pasta  "../Pi-NKE/firmware-master/boot", à excessão de Kernel.img que está nesta (Este é o kernel do PI). Estes aquivos só precisam ser copiados uma vez, e a cada compilação apenas substitua o kernel.img recém compilado que estará na pasta Placa.
+Não precisa estar como o cartão de memória conectado no pc. Não é como na placa LPC2378. Apenas copie os arquivos necessários e coloque o sd-card na raspberryPi e ligue direto na USB através do cabo conversor. Antes do primeiro uso, formate o card para FAT32. Não precisa fonte auxiliar a menos que seja plugado outros periféricos na placa. Fonte de 5V @2A. 
+*/
